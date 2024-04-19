@@ -48,13 +48,6 @@ function Home() {
         <div className="nav flex bg-gradient-to-r from-gray-800 to-gray-700 fixed top-0 w-full justify-between h-10vh z-50 text-white px-20 py-8 flex-1 ">
           <div className="my-2 lg:flex md:flex lg: flex-1 items-center justify-start font-normal hidden">
             <div className="flex-10 font-poppins">
-              {/* <span className="">
-              <img
-                src="src/assets/Amiibo_logo.png"
-                alt=""
-                className="w-[140px] h-[50px]"
-              />
-            </span> */}
               <ul className="flex gap-12 mr-16  text-[18px]">
                 <Link
                   className="link"
