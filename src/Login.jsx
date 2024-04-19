@@ -9,15 +9,15 @@ import { Toaster } from "react-hot-toast";
 import toast from "react-hot-toast";
 import GoogleLogin from "./GoogleLogin";
 
-// falfareza@binaracademy.org
-// Aneh1234
-
 function Login() {
   const [email, setemail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
+
+  // falfareza@binaracademy.org
+  // Aneh1234
 
   useEffect(() => {
     console.log("localStorage ", localStorage.getItem("token"));
